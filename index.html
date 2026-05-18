@@ -1,98 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Rakshya | Luxury Portfolio</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="responsive.css">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-</head>
-
-<body>
-
-    <!-- PARTICLES BACKGROUND -->
-    <canvas id="particles-canvas"></canvas>
-
-    <!-- GLSL SHADER BACKGROUND -->
-    <div id="shader-background"></div>
-
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar">
-
-            <div class="logo">
-                Rakshya
-            </div>
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-        </nav>
-    </header>
-
-    <!-- HERO SECTION -->
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <p class="intro-text">
-                Hello Beautiful World ✨
-            </p>
-
-            <h1>
-                I'm Rakshya
-            </h1>
-
-            <h2 class="typing-text">
-                Creative Developer & Computer Science Student
-            </h2>
-
-            <p class="hero-description">
-                I design elegant, interactive and modern digital experiences
-                with creativity, passion and technology.
-            </p>
-
-            <div class="hero-buttons">
-
-                <button id="exploreBtn">
-                    Explore Portfolio
-                </button>
-
-                <button id="soundToggle">
-                    Sound On
-                </button>
-
-            </div>
-
-        </div>
-
-        <!-- 3D PROFILE CARD -->
-        <div class="profile-card">
 
             <div class="card-inner">
 
-                <img src="images/profile.jpg" alt="Rakshya Profile">
+                <img src="images/profile.jpg"
+                    alt="profile">
 
-                <h3>Rakshya</h3>
+                <h3>
+                    Rakshya
+                </h3>
 
-                <p>Frontend Developer</p>
+                <p>
+                    Frontend Developer
+                </p>
 
             </div>
 
@@ -100,27 +19,47 @@
 
     </section>
 
-    <!-- FEATURE SECTION -->
+    <!-- FEATURES -->
+
     <section class="features-section">
 
         <div class="feature-card">
-            <h3>✨ Modern UI</h3>
-            <p>Elegant feminine interface with luxury aesthetics.</p>
+
+            <h3>2D Graphics</h3>
+
+            <p>
+                Interactive HTML5 canvas particle
+                systems with dynamic animation.
+            </p>
+
         </div>
 
         <div class="feature-card">
-            <h3>🎨 Creative Design</h3>
-            <p>Interactive animations and immersive visuals.</p>
+
+            <h3>GLSL Shaders</h3>
+
+            <p>
+                GPU-powered shader backgrounds
+                using WebGL and Three.js.
+            </p>
+
         </div>
 
         <div class="feature-card">
-            <h3>💻 Responsive</h3>
-            <p>Optimized for desktop, tablet and mobile devices.</p>
+
+            <h3>Modern UI/UX</h3>
+
+            <p>
+                Responsive glassmorphism design
+                with animations and interactivity.
+            </p>
+
         </div>
 
     </section>
 
     <!-- FOOTER -->
+
     <footer>
 
         <p>
@@ -129,12 +68,11 @@
 
     </footer>
 
-    <!-- JAVASCRIPT -->
-    <script src="script.js"></script>
+    <script src="three.min.js"></script>
     <script src="particles.js"></script>
-    <script src="sound.js"></script>
     <script src="shader.js"></script>
+    <script src="sound.js"></script>
+    <script src="script.js"></script>
 
 </body>
-
 </html>
